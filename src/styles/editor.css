@@ -1,0 +1,12 @@
+.ace_editor .ace_gutter-layer {
+  /* Add your custom styles here */
+  background-color: #111215; /* Example: change the gutter background color */
+}
+
+.ace_scroller {
+  top: 20px;
+}
+
+.ace_gutter {
+  top: 20px;
+}

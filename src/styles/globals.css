@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formatter h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.formatter h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.formatter h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.formatter h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.formatter p,
+.formatter ul,
+.formatter ol {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.formatter ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.formatter ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.formatter li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.formatter a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.formatter a:hover {
+  color: #2563eb;
+}
+
+.formatter blockquote {
+  border-left: 4px solid #cbd5e0;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.formatter pre {
+  overflow: auto;
+}
+
+.formatter code {
+  font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Courier, monospace;
+  font-size: 0.875rem;
+  /* background-color: #f3f4f6; */
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.formatter img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.formatter table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.formatter th,
+.formatter td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
+
+.formatter th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.formatter figure {
+  text-align: center;
+}
+
+.formatter figcaption {
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+/* CSS to style a minimal scrollbar */
+/* Set scrollbar width and color */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a3a3a3;
+}
+
+/* Remove the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
