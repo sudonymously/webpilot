@@ -2,7 +2,12 @@
 
 webpilot is an open-source React Component Generator. It allows users to generate React components with ease, similar to CodePen, but with the added convenience of a chatbot powered by ChatGPT!
 
-## Getting Started
+webpilot is an experiment to see if flexible and customizable Generative AI code can be a good replacement front-end component libraries like chakra, antd, material, etc.
+
+## Live Access
+Check it out at [webpilot.sh](https://webpilot.sh)!
+
+## Running webpilot Locally
 
 To get started with webpilot, follow these steps:
 
@@ -12,11 +17,23 @@ To get started with webpilot, follow these steps:
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Cool Features to Add! (Contributions Welcome)
-1. Add support for other frontend frameworks like vue.js, svelte, etc
-2. Render external npm libraries in Sandbox
-3. Import libraries via CDNs
-4. Referencing external documentations via a link to generate code
+
+Here are some of the features we'd love to add to webpilot in the future:
+
+1. Support for other front-end frameworks like Vue.js, Svelte, etc.
+2. Rendering of external npm libraries in the Sandbox.
+3. Importing of libraries via CDNs.
+4. Referencing external documentation via a link to generate code.
 5. [ Your cool Idea Here! ]
+
+## Technologies Used
+
+webpilot is built using the following technologies and libraries:
+
+- Next.js
+- TailwindCSS
+- Babel Standalone
+- OpenAI API
 
 ## Contribution
 
@@ -31,3 +48,9 @@ We welcome contributions from anyone who wants to help improve webpilot! To cont
 ## License
 
 webpilot is licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
+
+## Maintainers
+
+- [@sudonymously](https://twitter.com/sudonymously)
+
+We are actively looking for contributors who want to help grow this project. If you're interested in becoming a maintainer, please reach out!

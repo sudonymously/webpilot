@@ -24,11 +24,11 @@ const initialCode = `
 function Welcome() {
   return (
     <div className="h-screen w-screen flex bg-gray-50 items-center justify-center">
-      <div className="max-w-xl w-full p-8 border-2 border-gray-200 rounded-xl shadow-lg">
+      <div className="max-w-2xl w-full p-8 border-2 border-gray-200 rounded-xl shadow-lg">
         <div className="text-gray-900 my-12">
           <h1 className="text-5xl font-bold text-center m-2">WebPilot</h1>
           <p className="text-lg m-2">
-            Like CodePen + ChatGPT for Generating React Components
+            An Open Source CodePen + ChatGPT for Generating React Components
           </p>
         </div>
       </div>

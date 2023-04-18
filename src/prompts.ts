@@ -47,13 +47,15 @@ The following is an example of the code format between <format> tags you should 
 // Example of a React component styled with TailwindCSS
 function Welcome() {
   return (
-    <div
-      className="h-screen w-screen flex flex-col items-center justify-center"
-    >
-      <h1 className="text-5xl font-bold text-center m-2">WebPilot</h1>
-      <p className="text-lg m-2">
-        CodePen + ChatGPT for generating React Components
-      </p>
+    <div className="h-screen w-screen flex bg-gray-50 items-center justify-center">
+      <div className="max-w-2xl w-full p-8 border-2 border-gray-200 rounded-xl shadow-lg">
+        <div className="text-gray-900 my-12">
+          <h1 className="text-5xl font-bold text-center m-2">WebPilot</h1>
+          <p className="text-lg m-2">
+            An Open Source CodePen + ChatGPT for Generating React Components
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
